@@ -18,7 +18,7 @@ You paste a sentence or a short paragraph. Sentfix sends it to [Ollama](https://
 
 You need to download and run [Ollama](https://ollama.com/download) yourself, then pull a model. The app does not install it for you. Ollama has to be running before you start Sentfix.
 
-Note: `ollama pull llama3.2:3b` is probably enough.
+Note: `llama3.2:3b` is probably enough.
 
 You also need Flutter to run the app (for now).
 
