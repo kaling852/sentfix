@@ -18,7 +18,7 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
 
     expect(find.text('Ollama is not running on localhost.'), findsOneWidget);
-    expect(find.text('0'), findsNothing);
+    expect(find.text('Sentence or paragraph'), findsNothing);
   });
 
   testWidgets('enters the app when localhost is up', (tester) async {
@@ -27,7 +27,8 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
     await tester.pump();
 
-    expect(find.text('0'), findsOneWidget);
+    expect(find.text('Sentence or paragraph'), findsOneWidget);
+    expect(find.text('Nothing yet.'), findsOneWidget);
     expect(find.text('Ollama is not running on localhost.'), findsNothing);
   });
 }

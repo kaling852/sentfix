@@ -96,7 +96,8 @@ class _StartupScreenState extends State<StartupScreen>
                         ),
                         const SizedBox(height: 16),
                         FilledButton(
-                          onPressed: () => context.read<ConnectionCubit>().check(),
+                          onPressed: () =>
+                              context.read<ConnectionCubit>().check(),
                           child: const Text('Try again'),
                         ),
                       ] else
