@@ -2,8 +2,7 @@
 
 <img width="799" height="902" alt="Screenshot 2026-10-09 at 12 15 34 AM" src="https://github.com/user-attachments/assets/e92e69cb-9216-4c02-92e5-7f08ad759beb" />
 
-
-Sentfix is for when you already know what you want to say. If you are writing in English as a second language, a sentence can run too long, or a typo and a grammar slip can get in the way. This app only cleans that up. It does not write the document for you, and the idea is still yours.
+Sentfix is for editing sentences that are too long, or contain typos and grammar mistakes, especially if you write in English as a second language. It helps you refine your ideas without writing the entire document for you.
 
 - **Fix English** fixes grammar, spelling, and punctuation.
 - **Concise** makes the same point shorter for the reader.
