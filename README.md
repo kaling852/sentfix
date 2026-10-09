@@ -12,7 +12,7 @@ Results are cleaned up after 2 minutes, so you do not have to clear a long list 
 
 ## How it works
 
-You paste a sentence or a short paragraph. Sentfix sends it to [Ollama](https://ollama.com) on your own machine at `http://localhost:11434`, and puts the cleaned wording back on the screen. Your tokens stay for your main work.
+You paste a sentence or a short paragraph. Sentfix sends it to [Ollama](https://ollama.com) on your own machine at `http://localhost:11434`, and puts the cleaned wording back on the screen. It does not use your tokens, your tokens stay for your main work.
 
 ## Required
 
